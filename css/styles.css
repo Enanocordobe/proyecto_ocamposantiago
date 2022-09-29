@@ -1,0 +1,9 @@
+ul {
+  list-style: none;
+}
+ul li {
+  color: red;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=styles.css.map */
