@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@200;400;700&display=swap");
+h1 {
+  color: rgb(138, 168, 137);
+}
+
 p {
   font-size: 1.8rem;
-  color: rgb(134, 132, 132);
+  color: rgb(138, 168, 137);
+  text-align: center;
 }
 
 h2 {
   font-size: 2.4rem;
+  color: rgb(138, 168, 137);
 }
 
 h3 {
   font-size: 2rem;
   font-weight: lighter;
+  color: rgb(138, 168, 137);
 }
 
 html {
@@ -27,8 +34,7 @@ body {
   padding: 0;
   line-height: 1.6;
   font-family: "Crimson Text", serif;
-  background-image: url("../../img/fondo.png");
-  background-repeat: no-repeat;
+  background-color: rgb(15, 15, 15);
 }
 
 ul {
@@ -38,11 +44,7 @@ ul {
 a {
   text-decoration: none;
   display: inline-block;
-  color: rgb(214, 60, 14);
-}
-
-p {
-  text-align: center;
+  color: rgb(82, 87, 94);
 }
 
 img {
@@ -109,7 +111,7 @@ nav ul a:hover {
 }
 
 .wrapper {
-  background-color: #fff;
+  background-color: rgb(15, 15, 15);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -146,7 +148,7 @@ nav ul a:hover {
 }
 .servicios i {
   font-size: 30px;
-  color: #6495ED;
+  color: #649;
 }
 
 .btn, .btn-secundario, .btn-principal {
@@ -209,7 +211,7 @@ nav ul a:hover {
 
 @media (min-width: 1400px) {
   nav, .servicios, .footer-content, .presentacion {
-    width: 60%;
+    width: 80%;
     margin: auto;
   }
 }
@@ -260,19 +262,29 @@ nav ul a:hover {
     border: none;
   }
 }
-.formulario {
-  display: grid;
-  grid-column-end: auto;
-}
-
 .formulario-uno {
-  display: inline-block;
-  padding: 2px;
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  width: 280px;
+  height: 220px;
   border: solid black;
   border-radius: 25%;
   box-shadow: 5px 2px 30px 5px black;
   box-sizing: border-box;
+  text-size-adjust: auto;
+}
+
+.container {
+  margin-top: 120px;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+.container li {
+  color: rgb(124, 172, 136);
 }
 
 /*# sourceMappingURL=styles.css.map */
