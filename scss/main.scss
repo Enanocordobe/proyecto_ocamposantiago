@@ -1,7 +1,13 @@
-ul{
-    list-style: none;
-    li{
-        color: red;
-        display: inline-block;
-      }
-}
+@import "./utils/variables";
+@import "./base/global";
+@import "./base/reset";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+@import "./components/botones";
+@import "./components/cards";
+@import "./components/carrusel";
+@import "./base/medios";
+@import "./pages/contacto";
+@import "./pages/index";
+

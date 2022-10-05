@@ -1,0 +1,61 @@
+@media(min-width:1400px){
+    nav, .servicios, .footer-content, .presentacion{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+@media(max-width:992px){
+    .presentacion, .tipo-servicios{
+        flex-direction: column;
+        
+    }
+    .presentacion div{
+        text-align: center;
+        margin-bottom: 30px;
+     }
+     nav{ 
+        @include caja-flex(center, center, wrap);
+        padding-bottom: 20px;
+        padding-top: 20px;
+     }
+}
+
+@media(max-width:420px){
+    .presentacion div{
+        text-align: center;
+        margin-bottom: 30px;
+        h1, p{
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .carrusel-fotos {
+      overflow: hidden;
+    }
+  
+    .carrusel-fotos{
+         img {
+      width: 500px;
+      height: 400px;
+         }
+    }
+    .carrusel-menu {
+      display: block;
+    }
+    .carrusel-menu {
+        img {
+      box-sizing: border-box;
+      width: 50px;
+      height: 40px;
+      border: 10px solid black;
+        }
+    }
+    .carrusel-menu {
+        img:hover {
+      border: none;
+    }
+}
+  }
