@@ -30,6 +30,35 @@
         }
     }
 }
+@media screen and (max-width: 420px) {
+    .carrusel-fotos {
+      max-width: 60%;
+      overflow: hidden;
+    }
+  
+    .carrusel-fotos{
+         img {
+      width: 200px;
+      height: 200px;
+         }
+    }
+    .carrusel-menu {
+      display: block;
+    }
+    
+        img {
+      box-sizing: border-box;
+      width: 50px;
+      height: 40px;
+      border: 10px solid black;
+        }
+    
+    
+        img:hover {
+      border: none;
+    }
+
+  }
 
 @media screen and (min-width: 500px) {
     .carrusel-fotos {
@@ -45,17 +74,17 @@
     .carrusel-menu {
       display: block;
     }
-    .carrusel-menu {
+    
         img {
       box-sizing: border-box;
       width: 50px;
       height: 40px;
       border: 10px solid black;
         }
-    }
-    .carrusel-menu {
+    
+    
         img:hover {
       border: none;
     }
-}
+
   }
