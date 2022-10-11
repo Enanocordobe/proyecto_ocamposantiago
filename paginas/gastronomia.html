@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,63 +10,65 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>Gastronomia - El Cordobe</title>
 </head>
-<body>
-    
-    <header id="menu">         
-        <nav>
-            <a href="../index.html"><img src="../img/logo.jpg" class="logo" alt="logo" width="200" height="50"></a>
-            <ul>
-                <li><a href="./moto.html">VIAJES</a></li>
-                <li><a href="./trekking.html">TREKKING</a></li>
-                <li><a href="./gastronomia.html">GASTRONOMIA</a></li>
-                <li><a href="./contacto.html">CONTACTOS</a></li>
-            </ul>
-        </nav>         
+<body>            
+  <header id="menu container">         
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./moto.html">MOTOCICLISMO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./trekking.html">TREKKING</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./gastronomia.html">GASTRONOMIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+            </li> 
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn-principal" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     </header>
-    <main>
-    <section class="presentacion container-fluid">
-        <div class="flex-item1">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="../img/asado.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">BODEGON SAN JOSE</h5>
-                      <p class="card-text">Es una vieja casona donde los dueños son inmigrantes italianos manteniendo asi un menu especializado en pastas y carnes rojas. Se destaca por poseer vino de las mejores bodegas, manteniendo un ambiente sereno y precios justos</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Octubre 2022</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="../img/choripan.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">EL VIEJO LOBO</h5>
-                      <p class="card-text">Una de las esquinas mas renombradas por los cordobeses, las carnes rojas son su especialidad, mientras el mozo trae de los mejores cortes, un grupo musical acompaña la velada con antiguas baladas y clasicos de todos los tiempos</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Octubre 2022</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="../img/locritodelhimalaya.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Comedor de Taninga</h5>
-                      <p class="card-text">En este comedor encontraras un asado de chivito o cabrito, segun de donde seas, precios accesibles y particularidad de ser diente libre, un bello lugar para ir antes de conocer los tuneles de Taninga</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Octubre 2022</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>
-    </div>
+    <main class="container">
+      <section class="contenedor-tarjeta">        
+        <div class="tarjeta">
+          <img class="imgCard" src="../img/choripan.png">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni enim dolorum dignissimos, molestiae autem? Quidem dignissimos a debitis laudantium?</p>      
+        </div>
+        <div class="tarjeta">
+          <img src="../img/gastcarru.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni enim dolorum dignissimos, molestiae autem? Quidem dignissimos a debitis laudantium?</p>      
+        </div>
+        <div class="tarjeta">
+          <img src="../img/locritodelhimalaya.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni enim dolorum dignissimos, molestiae autem? Quidem dignissimos a debitis laudantium?</p>      
+        </div>
+        <div class="tarjeta">
+          <img src="../img/asado.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni enim dolorum dignissimos, molestiae autem? Quidem dignissimos a debitis laudantium?</p>      
+        </div>
+        <div class="tarjeta">
+          <img src="../img/choripan.png">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni enim dolorum dignissimos, molestiae autem? Quidem dignissimos a debitis laudantium?</p>      
+        </div>
+        <div class="tarjeta">
+          <img src="../img/locritodelhimalaya.jpg">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni enim dolorum dignissimos, molestiae autem? Quidem dignissimos a debitis laudantium?</p>      
+        </div>
+      </section>
+      
 </main>
     <footer>
         <p class="footer-content">
@@ -74,6 +76,6 @@
             Si sales, que sea resonsablemente.
         </p>
     </footer>
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

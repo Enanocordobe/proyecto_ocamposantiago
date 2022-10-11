@@ -1,17 +1,17 @@
 @media(min-width:1400px){
-    nav, .servicios, .footer-content, .presentacion{
+    nav, .servicios, .footer-content, .presentacion .carrusel-fotos .tarjeta{
         width: 80%;
         margin: auto;
     }
 
 }
 @media(max-width:992px){
-    .presentacion, .tipo-servicios{
+    .presentacion, .tipo-servicios {
         flex-direction: column;
         
     }
     .presentacion div{
-        text-align: center;
+        justify-content: center;
         margin-bottom: 30px;
      }
      nav{ 
@@ -22,18 +22,28 @@
 }
 
 @media(max-width:420px){
-    .presentacion div{
-        text-align: center;
+    .presentacion div section {
+        flex-direction: column;
         margin-bottom: 30px;
         h1, p{
             padding: 0;
         }
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 420px) {
+  .contenedor-tarjeta{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    img{
+        border-radius: 5%;
+        max-width: 200px;
+        object-fit:contain;
+    }
+  }
     .carrusel-fotos {
-      max-width: 60%;
       overflow: hidden;
+      box-sizing: border-box;
     }
   
     .carrusel-fotos{
@@ -42,49 +52,21 @@
       height: 200px;
          }
     }
-    .carrusel-menu {
-      display: block;
-    }
-    
-        img {
-      box-sizing: border-box;
-      width: 50px;
-      height: 40px;
-      border: 10px solid black;
-        }
-    
-    
-        img:hover {
-      border: none;
-    }
-
-  }
-
-@media screen and (min-width: 500px) {
-    .carrusel-fotos {
-      overflow: hidden;
-    }
   
-    .carrusel-fotos{
-         img {
-      width: 500px;
-      height: 400px;
-         }
-    }
-    .carrusel-menu {
-      display: block;
-    }
-    
-        img {
-      box-sizing: border-box;
-      width: 50px;
-      height: 40px;
-      border: 10px solid black;
-        }
-    
-    
-        img:hover {
-      border: none;
-    }
-
   }
+
+@media screen and (min-width: 740px) {
+  .contenedor-tarjeta{
+    overflow: hidden;
+    display: grid;      
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+      
+    gap: 20px;
+  }
+        
+    
+      
+   }
+  

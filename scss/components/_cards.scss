@@ -1,0 +1,27 @@
+.contenedor-tarjeta{
+    overflow: hidden;
+    display: grid;      
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: 50% 50%;
+    grid-column-start: auto;  
+    gap: 20px;
+        .tarjeta{
+            box-sizing: border-box;
+            display: grid;
+            justify-items: center;
+            overflow: hidden;
+            padding: 10px;            
+            border: solid rgb(109, 184, 197);
+            border-radius: 5%;
+            
+            img{               
+                
+                height: auto;          
+
+            } 
+            p{
+               font-size: medium; 
+            }          
+                }    
+    
+}

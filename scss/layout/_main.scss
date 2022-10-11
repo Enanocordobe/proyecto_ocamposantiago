@@ -5,7 +5,7 @@
 }
 
 .presentacion{
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 50px; 
     @include caja-flex
     (space-beetween, center, nowrap);
@@ -16,10 +16,11 @@
         margin-top: 0;
         padding-right: 20px;
         font-size: $font-h1;
+        
     }
     p{ 
-        padding-right: 20px;}
-        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;}
 }
 
 .servicios{

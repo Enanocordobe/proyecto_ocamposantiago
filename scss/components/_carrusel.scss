@@ -1,35 +1,18 @@
-.carrusel {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-  
-  .carrusel {
-         ul{
-    list-style: none;
-    margin-top: 100px;
-    padding: 0;
-    max-width: 1030px;
-    scroll-behavior: smooth;
+.carousel-inner {   
+        scroll-behavior: smooth;
          }
-}
-  
-  .carrusel-fotos {
-    display: flex;
-    gap: 10px;
-    overflow: auto;
-  }
-  
-  .carrusel-fotos {    
-    img{
+
+.carousel-item {  
+        
+ img{
     background: black;
-    border: 4px solid black;
-    width: 300px;
-    height: 200px;
-    object-fit: contain;  
+     border: 8px solid black;
+     width: 100%;
+     max-height: 600px;
+     
     } 
-}
+ }
   
-  .carrusel-menu {
-    display: none;
-  }
+ .carrusel-menu {
+   display: none;
+}

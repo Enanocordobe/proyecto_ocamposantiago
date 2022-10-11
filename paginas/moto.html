@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,17 +12,36 @@
 </head>
 <body>
     
-    <header id="menu">         
-        <nav>
-            <a href="../index.html"><img src="../img/logo.jpg" class="logo" alt="logo" width="200" height="50"></a>
-            <ul>
-                <li><a href="./moto.html">VIAJES</a></li>
-                <li><a href="./trekking.html">TREKKING</a></li>
-                <li><a href="./gastronomia.html">GASTRONOMIA</a></li>
-                <li><a href="./contacto.html">CONTACTOS</a></li>
-            </ul>
-        </nav>         
-    </header>
+    <header id="menu container">         
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./moto.html">MOTOCICLISMO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./trekking.html">TREKKING</a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./gastronomia.html">GASTRONOMIA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+                </li> 
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn-principal" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        </header>
     <section class="presentacion">
         <div class="flex-item1">
             <h1 class="text-center">Te llevaremos a realizar la mejor motoaventura de tu vida</h1>
@@ -31,7 +50,7 @@
             </p>            
         </div>
         <div class="flex-item2">
-            <img src="../img/moto3.jpg" alt="caratula" width="500" height="400">
+            <img src="../img/moto3.jpg" alt="caratula">
         </div>
     </section>
 
@@ -76,6 +95,6 @@
             Si sales, que sea resonsablemente.
         </p>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
