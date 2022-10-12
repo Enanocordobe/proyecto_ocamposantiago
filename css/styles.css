@@ -239,7 +239,7 @@ header .nav-item a a:hover {
     padding: 0;
   }
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 320px) {
   .contenedor-tarjeta {
     margin-top: 0;
     display: flex;
