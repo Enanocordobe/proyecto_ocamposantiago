@@ -12,9 +12,7 @@ body{
     padding: 0;
     line-height: 2;
     font-family: 'Crimson Text', serif;
-    background-color: rgb(15, 15, 15); 
-    background-image: url(../../img/fondo.jpg);  
-    background-size: cover;
+    background-image: radial-gradient(circle at 100% 0%, #00434a 0, #073339 16.67%, #0a2327 33.33%, #031114 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
         }
  ul{
      list-style-type: none;

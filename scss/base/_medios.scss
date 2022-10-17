@@ -1,5 +1,5 @@
 @media(min-width:1400px){
-    nav, .servicios, .footer-content, .presentacion .carrusel-fotos .tarjeta{
+     .servicios, .footer-content, .presentacion .carrusel-fotos .tarjeta{
         width: 80%;
         margin: auto;
     }
@@ -14,11 +14,7 @@
         justify-content: center;
         margin-bottom: 30px;
      }
-     nav{ 
-        @include caja-flex(center, center, wrap);
-        padding-bottom: 20px;
-        padding-top: 20px;
-     }
+    
 }
 
 @media(max-width:420px){
@@ -68,4 +64,5 @@
     
       
    }
+
   

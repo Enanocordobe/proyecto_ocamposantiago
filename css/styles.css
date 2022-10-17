@@ -34,9 +34,7 @@ body {
   padding: 0;
   line-height: 2;
   font-family: "Crimson Text", serif;
-  background-color: rgb(15, 15, 15);
-  background-image: url(../../img/fondo.jpg);
-  background-size: cover;
+  background-image: radial-gradient(circle at 100% 0%, #00434a 0, #073339 16.67%, #0a2327 33.33%, #031114 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
 }
 
 ul {
@@ -78,7 +76,7 @@ footer .footer-content {
   padding-bottom: 30px;
 }
 
-nav, .servicios, .presentacion, .footer-content {
+.servicios, .presentacion, .footer-content {
   width: 80%;
   margin: auto;
 }
@@ -173,10 +171,6 @@ header .nav-item a a:hover {
   background-color: rgb(80, 160, 93);
 }
 
-.imput {
-  height: 10px;
-}
-
 .carousel-inner {
   scroll-behavior: smooth;
 }
@@ -242,7 +236,7 @@ header .nav-item a a:hover {
 }
 
 @media (min-width: 1400px) {
-  nav, .servicios, .footer-content, .presentacion .carrusel-fotos .tarjeta {
+  .servicios, .footer-content, .presentacion .carrusel-fotos .tarjeta {
     width: 80%;
     margin: auto;
   }
@@ -254,14 +248,6 @@ header .nav-item a a:hover {
   .presentacion div {
     justify-content: center;
     margin-bottom: 30px;
-  }
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-    padding-top: 20px;
   }
 }
 @media (max-width: 420px) {
