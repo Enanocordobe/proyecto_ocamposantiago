@@ -1,3 +1,6 @@
+
+
+
 .btn{
     border: none;
     border-radius: 20px;
@@ -16,12 +19,15 @@
     @extend .btn;
     color: rgb(12, 12, 12);
     background-color: #637eaf;
+    
 }
 
 .btn-secundario{
 @extend .btn;
-background-color: rgb(70, 233, 97);
+background-color: rgb(80, 160, 93);
 }
 
-
+.imput{
+    height: 10px;
+}
 

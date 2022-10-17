@@ -1,11 +1,11 @@
 .wrapper{
-    background-color: rgb(15, 15, 15);
+    
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .presentacion{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px; 
     @include caja-flex
     (space-beetween, center, nowrap);
@@ -29,9 +29,8 @@
     }
     .tipo-servicios{
      @include caja-flex (center, center, nowrap);
-         }
-    i{ 
-        font-size: 30px;
-        color: #649;
+    display: flex;        
+    gap: 50px;    
     }
+   
 }

@@ -1,4 +1,5 @@
 .contenedor-tarjeta{
+    margin-bottom: 5%;
     overflow: hidden;
     display: grid;      
     grid-template-columns: 25% 25% 25% ;
@@ -13,6 +14,7 @@
             padding: 10px;            
             border: solid rgb(109, 184, 197);
             border-radius: 5%;
+            background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);
             
             img{               
                 
@@ -24,4 +26,26 @@
             }          
                 }    
     
+}
+.tarjetaUno{
+    width: 300px;
+    height: auto;
+    gap: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;            
+    border: solid rgb(109, 184, 197);
+    border-radius: 5%;
+    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);    
+    background-repeat: no-repeat;
+    object-fit: contain;
+     img{
+        object-position: center;     }
+     p{
+            font-size: large;
+            
+        }
 }

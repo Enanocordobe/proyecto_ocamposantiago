@@ -8,10 +8,12 @@ nav, .servicios, .presentacion, .footer-content{
 }
 
 header{
-    background-color: rgb(80, 102, 76);
-    color: rgb(43, 131, 58);
+    background-color: rgb(80, 102, 76);    
     top: 0;
-    width: 100%;  
+      
+    .fixed-top{
+        background-color: rgb(80, 102, 76);
+    }
 .nav-item{
         
  display: flex;
