@@ -182,10 +182,6 @@ header .nav-item a a:hover {
   max-height: 600px;
 }
 
-.carrusel-menu {
-  display: none;
-}
-
 .contenedor-tarjeta {
   margin-bottom: 5%;
   overflow: hidden;
@@ -193,7 +189,7 @@ header .nav-item a a:hover {
   grid-template-columns: 25% 25% 25%;
   grid-template-rows: 50% 50%;
   grid-column-start: auto;
-  gap: 20px;
+  gap: 1px;
 }
 .contenedor-tarjeta .tarjeta {
   box-sizing: border-box;
@@ -207,6 +203,10 @@ header .nav-item a a:hover {
 }
 .contenedor-tarjeta .tarjeta img {
   height: auto;
+}
+.contenedor-tarjeta .tarjeta img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 .contenedor-tarjeta .tarjeta p {
   font-size: medium;
